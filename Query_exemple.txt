@@ -1,0 +1,13 @@
+mutation($name: String!) {
+  createUser(name: $name) {
+    id
+    name
+  }
+}
+
+query {
+  users {
+    id
+    name
+  }
+}
