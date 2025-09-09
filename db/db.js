@@ -5,7 +5,7 @@ import pkg from 'lodash';
 const { chain } = pkg;
 
 // 1. Adapter pour le fichier JSON
-const adapter = new JSONFile('db.json')
+const adapter = new JSONFile('db/db.json')
 const db = new Low(adapter, { users: [], events: [] })
 
 // 2. Lecture initiale

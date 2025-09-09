@@ -1,0 +1,10 @@
+
+1. Installez
+
+npm install
+
+2. Lancez
+
+npm run dev
+
+client web a l'adresse exposee

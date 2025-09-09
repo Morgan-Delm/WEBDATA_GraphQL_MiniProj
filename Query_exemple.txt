@@ -1,5 +1,5 @@
-mutation($name: String!) {
-  createUser(name: $name) {
+query {
+  users {
     id
     name
   }
@@ -7,7 +7,41 @@ mutation($name: String!) {
 
 query {
   users {
+    ...UserInfo
+  }
+}
+fragment UserInfo on User {
+  id
+  name
+}
+
+query {
+  events {
+    id
+    title
+  }
+}
+
+mutation($name: String!) {
+  createUser(name: $name) {
     id
     name
   }
 }
+
+mutation($title: String!, $start: String!, $end: String!, $organizerId: ID!) {
+  createEvent(title: $title, start: $start, end: $end, organizerId: $organizerId){
+    id,
+    title,
+    dateRange {
+      start,
+      end
+    }
+    organizer {
+      id
+    }
+  }
+}
+
+
+

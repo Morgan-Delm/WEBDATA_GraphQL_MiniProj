@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "1756807456065",
+      "name": "Popo"
+    },
+    {
+      "id": "1756808056730",
+      "name": "Marie"
+    },
+    {
+      "id": "1757404670792",
+      "name": "Loyis"
+    }
+  ],
+  "events": [
+    {
+      "id": "1757407492179",
+      "title": "Les kiffeurs partout par terre",
+      "dateRange": {
+        "start": "17 juillet 2025",
+        "end": "21 juillet 2025"
+      },
+      "organizerId": "1757404670792",
+      "participantsIds": []
+    },
+    {
+      "id": "1757410117877",
+      "title": "Partout en l'air",
+      "dateRange": {
+        "start": "1 avril 2025",
+        "end": "2 avril 2025"
+      },
+      "organizerId": "1757404670792",
+      "participantsIds": []
+    }
+  ]
+}
