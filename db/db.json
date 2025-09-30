@@ -1,72 +1,12 @@
 {
   "users": [
     {
-      "id": "1756807456065",
-      "name": "Popo"
-    },
-    {
-      "id": "1756808056730",
-      "name": "Marie"
-    },
-    {
-      "id": "1757404670792",
-      "name": "Loyis"
-    },
-    {
-      "id": "1759221385548",
-      "name": "Marie"
-    },
-    {
-      "id": "1759221792320",
-      "name": "Shakra"
-    },
-    {
       "id": "1759222762706",
       "name": "Hornet",
       "password": "$2b$10$1CDwX4Nbq.0VLqlzgDBzaOhT3O5jYVje/qMt4RAyKsT6WM9/1WVPS"
     }
   ],
   "events": [
-    {
-      "id": "1757407492179",
-      "title": "Les kiffeurs partout par terre",
-      "dateRange": {
-        "start": "17 juillet 2025",
-        "end": "21 juillet 2025"
-      },
-      "organizerId": "1757404670792",
-      "participantsIds": []
-    },
-    {
-      "id": "1757410117877",
-      "title": "Partout en l'air",
-      "dateRange": {
-        "start": "1 avril 2025",
-        "end": "2 avril 2025"
-      },
-      "organizerId": "1757404670792",
-      "participantsIds": []
-    },
-    {
-      "id": "1759221769894",
-      "title": "Conférence GraphQL",
-      "dateRange": {
-        "start": "2025-10-01",
-        "end": "2025-10-02"
-      },
-      "organizerId": "1756808056730",
-      "participantsIds": []
-    },
-    {
-      "id": "1759222109528",
-      "title": "Speedrun Silksong",
-      "dateRange": {
-        "start": "2025-09-01",
-        "end": "2025-09-04"
-      },
-      "organizerId": "1759221792320",
-      "participantsIds": []
-    },
     {
       "id": "1759223053926",
       "title": "Mode Ame d'acier",
