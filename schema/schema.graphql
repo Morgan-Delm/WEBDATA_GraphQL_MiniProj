@@ -19,6 +19,7 @@ type Event {
 }
 
 type Query {
+  me: User
   users: [User!]!
   events: [Event!]!
 }
@@ -29,6 +30,14 @@ fragment UserInfo on User {
 }
 
 type Mutation {
+  login(name: String!): String
+
   createUser(name: String!): User!
-  createEvent(title: String!, start: String!, end: String!, organizerId: ID!): Event!
+  createEvent(title: String!, start: String!, end: String!): Event!
+
+  updateUser(id: ID!, name: String!): User!
+  updateEvent(id: ID!, title: String, start: String, end: String): Event!
+
+  deleteUser(id: ID!): Boolean!
+  deleteEvent(id: ID!): Boolean!
 }
