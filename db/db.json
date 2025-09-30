@@ -19,6 +19,11 @@
     {
       "id": "1759221792320",
       "name": "Shakra"
+    },
+    {
+      "id": "1759222762706",
+      "name": "Hornet",
+      "password": "$2b$10$1CDwX4Nbq.0VLqlzgDBzaOhT3O5jYVje/qMt4RAyKsT6WM9/1WVPS"
     }
   ],
   "events": [
@@ -60,6 +65,16 @@
         "end": "2025-09-04"
       },
       "organizerId": "1759221792320",
+      "participantsIds": []
+    },
+    {
+      "id": "1759223053926",
+      "title": "Mode Ame d'acier",
+      "dateRange": {
+        "start": "2025-10-01",
+        "end": "2025-11-04"
+      },
+      "organizerId": "1759222762706",
       "participantsIds": []
     }
   ]

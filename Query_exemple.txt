@@ -22,12 +22,20 @@ query {
   }
 }
 
-mutation($name: String!) {
-  createUser(name: $name) {
+mutation($name: String!, $password: String!) {
+  createUser(name: $name, password:$password) {
     id
     name
   }
 }
+
+mutation($name: String!) {
+  login(name: $name, password: "Lace")
+}
+
+Header :
+
+Athorization : Bearer {le token retoutner par la mutation login}
 
 mutation($title: String!, $start: String!, $end: String!, $organizerId: ID!) {
   createEvent(title: $title, start: $start, end: $end, organizerId: $organizerId){

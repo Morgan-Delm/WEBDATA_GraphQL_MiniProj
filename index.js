@@ -22,7 +22,7 @@ const { url } = await startStandaloneServer(server, {
       const token = auth.slice(7);
       try {
         const decoded = jwt.verify(token, SECRET);
-        return { user: decoded };
+        return { auth: decoded };
       } catch (err) {
         console.error("❌ Token invalide:", err.message);
         console.log(token)

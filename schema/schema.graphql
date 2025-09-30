@@ -30,9 +30,9 @@ fragment UserInfo on User {
 }
 
 type Mutation {
-  login(name: String!): String
+  login(name: String!, password: String!): String
 
-  createUser(name: String!): User!
+  createUser(name: String!, password: String!): User!
   createEvent(title: String!, start: String!, end: String!): Event!
 
   updateUser(id: ID!, name: String!): User!
